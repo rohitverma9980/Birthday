@@ -1,4 +1,4 @@
-// JavaScript to change balloon colors dynamically
+// Change balloon colors dynamically
 const balloons = document.querySelectorAll('.balloon');
 
 balloons.forEach((balloon) => {
@@ -16,14 +16,7 @@ function getRandomColor() {
     return color;
 }
 
-// JavaScript to show the gift when clicked
-// function showGift() {
-//     const gift = document.getElementById('gift');
-//     gift.style.display = 'block';
-//     gift.style.animation = 'pop 1s ease-out';
-// }
-
-// JavaScript for smooth fade-in effect for photos
+// Fade-in effect for photos
 window.addEventListener('DOMContentLoaded', () => {
     const photos = document.querySelectorAll('.photo img');
     photos.forEach((photo, index) => {
